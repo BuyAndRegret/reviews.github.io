@@ -1,120 +1,144 @@
 <!doctype html>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title></title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="apple-touch-icon" href="apple-touch-icon.png">
 
-        <link rel="stylesheet" href="css/normalize.min.css">
-        <link rel="stylesheet" href="css/main.css">
-		<!-- Latest compiled and minified CSS -->
-		<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+    <meta name="theme-color" content="#990000">
+    <link rel="stylesheet" href="css/normalize.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
 
-		<!-- jQuery library -->
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
 
-		<!-- Latest compiled JavaScript -->
-		<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <!-- Latest compiled JavaScript -->
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 
-        <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
-        <style>
-            #twitch li {
-                display: inline;
-                list-style-type:none;
-            }
-            #Twitter li {
-                display: inline;
-                list-style-type:none;
-            }
-            #YouTube li {
-                display: inline;
-                list-style-type:none;
-            }
-			#Contact{
-			display: inline;}
-       .header img {
-                float: left;
-                width: 100px;
-                height: 100px;
-                background: #900;
-              }
+    <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+    <style>
+        #twitch li {
+            display: inline;
+            list-style-type: none;
+        }
+        
+        #Twitter li {
+            display: inline;
+            list-style-type: none;
+        }
+        
+        #YouTube li {
+            display: inline;
+            list-style-type: none;
+        }
+        
+        #Contact {
+            display: inline;
+        }
+        
+        .header img {
+            float: left;
+            width: 100px;
+            height: 100px;
+            background: #900;
+        }
+        
+        .header h1 {
+            position: relative;
+            top: 18px;
+            left: 10px;
+            color: white;
+        }
+        
+        .header h2 {
+            color: white;
+        }
+        
+        body {
+            background-image: url(background.png);
+            background-size: cover;
+        }
+        
+        .well {
+            background-color: white;
+            outline-style: solid;
+            outline-color: #990000;
+            outline-width: 5px;
+            text-indent: 30px;
+            align-content: center;
+        }
+        
+        aside{
+            margin: 10px;
+        }
+    </style>
+</head>
 
-              .header h1 {
-                position: relative;
-                top: 18px;
-                left: 10px;
-                color: white;
-              }
-              .header h2{
-                  color:white;
-              }
-              body{
-                  background-image: url(background.png);
-                  background-size:  cover;
-              }
-        </style>
-    </head>
-    <body>
+<body>
 
 
-        <div class="header-container">
-            <header class="wrapper clearfix">
-                <a href="http://buyandregret.com">
-                      <div class="header">
-                      <img src="iconweb.png" alt="buyandregret" />
-                      <h1>Buy and Regret</h1>
-                      <h2>An Honest Gaming Website</h2>
-                    </div>
-                </a>
+    <div class="header-container">
+        <header class="wrapper clearfix">
+            <a href="http://buyandregret.com">
+                <div class="header">
+                    <img src="iconweb.png" alt="buyandregret" />
+                    <h1>Buy and Regret</h1>
+                    <h2>An Honest Gaming Website</h2>
+                </div>
+            </a>
 
-                <nav>
-                    <ul>
-                        <li><a href="http://buyandregret.com/reviews">Reviews</a></li>
-                        <li><a href="http://buyandregret.com/playing">Playing</a></li>
-                        <li><a href="http://buyandregret.com/buying">Buying</a></li>
-                    </ul>
-                </nav>
-            </header>
+            <nav>
+                <ul>
+                    <li><a href="http://buyandregret.com/reviews">Reviews</a></li>
+                    <li><a href="http://buyandregret.com/playing">Playing</a></li>
+                    <li><a href="http://buyandregret.com/buying">Buying</a></li>
+                </ul>
+            </nav>
+        </header>
+    </div>
+
+    <div class="main-container">
+        <div class="main wrapper clearfix">
+            <aside>
+                <h3>Review Section</h3>
+                <p>Greetings!<br> Here you will find our reviews for games we have acquired and hope you will find them useful.
+                    Again, these reviews are based on our own opinion and we just try to share our thoughts for a non-baised
+                    non-profit review.<br> Please stick around for more reviews coming up! Thank you for coming and i hope
+                    you enjoy your stay.<br>
+                </p>
+            </aside>
+            <article>
+                <header>
+                    <h1>Doom Review is out!</h1>
+                    <p>Hello everyone! <br> We are glad to present you with the first review for our website! Written by our
+                        own R3c0n31 who is a massive fan of this franchise. Please go read it <a href="http://buyandregret.com/doomreview">here</a></p>
+                </header>
+                <section>
+                    <h2></h2>
+                    <p></p>
+                </section>
+                <section>
+                    <h2></h2>
+                    <p></p>
+                </section>
+                <footer>
+                    <h3></h3>
+                    <p></p>
+                </footer>
+            </article>
+
+
         </div>
+        <!-- #main -->
+    </div>
+    <!-- #main-container -->
 
-        <div class="main-container">
-            <div class="main wrapper clearfix">
-			<aside>
-                    <h3>Review Section</h3>
-                    <p>Greetings!<br>
-                        Here you will find our reviews for games we have acquired and hope you will find them useful. Again, these reviews are based on our own opinion and we just try to share our thoughts for a non-baised non-profit review.<br>
-                        Please stick around for more reviews coming up!
-                        Thank you for coming and i hope you enjoy your stay.<br>
-                    </p>
-                </aside>
-                <article>
-                    <header>
-                        <h1>Doom Review is out!</h1>
-                        <p>Hello everyone! <br>
-                            We are glad to present you with the first review for our website! Written by our own R3c0n31 who is a massive fan of this franchise. Please go read it <a href="http://buyandregret.com/doomreview">here</a></p>
-                    </header>
-                    <section>
-                        <h2></h2>
-                        <p></p>
-                    </section>
-                    <section>
-                        <h2></h2>
-                        <p></p>
-                    </section>
-                    <footer>
-                        <h3></h3>
-                        <p></p>
-                    </footer>
-                </article>
-                
-
-            </div> <!-- #main -->
-        </div> <!-- #main-container -->
-
-         <div class="footer-container">
-            <div class="footer-container">
+    <div class="footer-container">
+        <div class="footer-container">
             <footer class="wrapper">
                 <h3><a href="http://buyandregret.com/followus">Follow us!</a></h3>
             </footer>
@@ -124,7 +148,7 @@
 
         <script src="js/main.js"></script>
 
-      <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
         <script>
 	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
 	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -134,5 +158,6 @@
 	  ga('create', 'UA-79425941-1', 'auto');
 	  ga('send', 'pageview');
         </script>
-    </body>
+</body>
+
 </html>
